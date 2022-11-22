@@ -1,5 +1,6 @@
 const buttons = document.querySelector("button");
-const h1 = document.querySelector("h1");
+
+const h1 = querySelectorAll("h1");
 
 buttons.addEventListener("click", () => {
   const r = Math.floor(Math.random() * 255);
